@@ -18,7 +18,8 @@ jobs:
         run: spring init --dependencies=web
           
       - name: Unzip Spring project
-        run: unzip demo.zip
+        #run: unzip demo.zip
+        run: ls
 
 #      - name: Remove initialization workflow
 #        run: rm .github/workflows/init_repository.yml
